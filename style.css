@@ -7,3 +7,6 @@ font-family: 'Open Sans', sans-serif;
 h3{
 font-style: italic;
 }
+figcaption{
+font-size: 12px;
+}
