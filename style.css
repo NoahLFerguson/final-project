@@ -17,10 +17,14 @@ h1{
 footer{
   font-family: 'Open Sans', sans-serif;
   font-size: 12px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
 }
 .thompsoncontainer{
   float: right;
   width: 50%;
   height: 550px;
   overflow: auto;
+  padding-left: 10px;
 }
