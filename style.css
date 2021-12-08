@@ -10,3 +10,17 @@ font-style: italic;
 figcaption{
 font-size: 12px;
 }
+h1{
+  font-family: 'Source Sans 3', sans-serif;
+  font-size: 40px;
+}
+footer{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+}
+.thompsoncontainer{
+  float: right;
+  width: 50%;
+  height: 550px;
+  overflow: auto;
+}
