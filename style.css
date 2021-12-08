@@ -4,16 +4,24 @@ margin-right: auto;
 width: 65%;
 font-family: 'Open Sans', sans-serif;
 }
+
+#bodycolor {
+  background-color: lightgrey;
+}
+
 h3{
 font-style: italic;
 }
+
 figcaption{
 font-size: 12px;
 }
+
 h1{
   font-family: 'Source Sans 3', sans-serif;
   font-size: 40px;
 }
+
 footer{
   font-family: 'Open Sans', sans-serif;
   font-size: 12px;
@@ -21,10 +29,12 @@ footer{
   padding-bottom: 50px;
   text-align: center;
 }
-.thompsoncontainer{
-  float: right;
-  width: 50%;
-  height: 550px;
-  overflow: auto;
+
+#thompsonpic {
   padding-left: 10px;
+  float: right;
+  max-width: 300px;
+  height: 400px;
+  height: auto;
+  width: auto;
 }
