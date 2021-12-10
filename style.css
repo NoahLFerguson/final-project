@@ -2,6 +2,24 @@ body{
 font-family: 'Open Sans', sans-serif;
 }
 
+.wrapper{
+  display: flex;
+  flex-flow: row wrap;
+  text-align: left;
+  background-color: #FCF9F4;
+}
+
+.wrapper > * {
+  padding-left: 300px;
+  padding-right: 300px;
+  padding-top: 20px;
+  flex: 1 100%;
+}
+
+.main{
+  text-align: left;
+}
+
 .column{
   margin-left: auto;
   margin-right: auto;
@@ -10,13 +28,21 @@ font-family: 'Open Sans', sans-serif;
 
 .banner{
   background-color: #E51D37;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
+footer{
+  background-color: #E51D37;
+}
 
+.color{
+  border-top: 2px solid #FFD520;
+}
 
 h1{
-  font-family: 'Source Sans 3', sans-serif;
-  font-size: 40px;
+  font-family: 'Playfair Display', serif;
+  font-size: 50px;
   text-align: center;
 }
 
@@ -25,7 +51,7 @@ font-style: italic;
 text-align: center;
 }
 
-figcaption{
+.caption{
 font-size: 12px;
 text-align: center;
 }
@@ -46,7 +72,6 @@ footer{
   height: auto;
   width: auto;
 }
-
 
 .rainellecontainer{
   display: block;
