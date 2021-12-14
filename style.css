@@ -67,8 +67,10 @@ footer {
 
 @media only screen and (max-width: 768px) {
   .rainellecontainer{
-  float: left;
-  width: 500px;
+  width: 300px;
 }
-
+  .thompsonpic {
+  float: right;
+  width: 200px;
+  }
 }
